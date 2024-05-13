@@ -24,7 +24,7 @@ cargo build -r subspace-malicious-operator
 
 ### Run
 
-The malicious operator node take the same args as the regular domain operator, please refer to [Domain operator](../../domains/README.md).
+The malicious operator node takes the same args as the regular domain operator, please refer to [Domain operator](../../domains/README.md).
 
 A few notable differences:
 - The malicious operator node will ignore the `--operator-id` arg if specified, instead it will register new operator internally and automatically and using their id to produce malicious content.
