@@ -29,5 +29,5 @@ The malicious operator node takes the same args as the regular domain operator, 
 A few notable differences:
 - The malicious operator node will ignore the `--operator-id` arg if specified, instead, it will internally and automatically register a new operator, using their ID to produce malicious content.
 - The malicious operator node requires the consensus chain sudo key pair to run in the network.
-    - With `--chains dev`, Alice is the sudo account and its key pair is already exist in the node.
+    - With `--chains dev`, Alice is the sudo account and its key pair already exists in the node.
     - With `--chain devnet`, the sudo key pair need to insert into the keystore with `subspace-node key insert --suri "<Secret phrase>" --key-type sub_ --scheme sr25519 --keystore-path <PATH>`.
